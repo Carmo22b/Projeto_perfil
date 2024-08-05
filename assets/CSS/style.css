@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.attribution { 
+    margin-top: 10px;
+    font-size: 11px; 
+    text-align: center; 
+    color: aliceblue;
+    
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.conteiner_pai{
+   background-color: hsl(0, 0%, 12%); 
+   border-radius: 14px;
+   padding: 45px;
+   width: 400px;
+   
+}
+
+.conteiner_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.img_jessica{
+    border-radius: 50%;
+    width: 90px;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.London{
+    color: hsl(75, 94%, 57%);  
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.conteiner_link_perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 26px;    
+    
+}
+
+.conteiner_link_perfil .link_perfil{
+    text-align: center;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 16px;
+    border-radius: 10px;
+   
+    
+}
+
+.conteiner_link_perfil .link_perfil:hover{
+    text-align: center;
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
